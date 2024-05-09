@@ -22,7 +22,7 @@ Set up the required environment variables in your system:
 set WEATHER_API_KEY=your_weather_union_api_key
 set TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 
-####  macOS/Linux:
-
+#### For Linux/MacOS:
+```bash
 export WEATHER_API_KEY=your_weather_union_api_key
 export TELEGRAM_BOT_TOKEN=your_telegram_bot_token
