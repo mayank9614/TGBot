@@ -5,7 +5,7 @@ import requests
 import queue
 
 API_KEY = os.getenv('WEATHER_API_KEY')
-BOT_TOKEN ='7118409819:AAH31vAoBHn-eiw3kobF5XgfSofjA26-Yrg'
+BOT_TOKEN =os.getenv('TELEGRAM_BOT_TOKEN')
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text('Hello! Use /weather_latlong <lat> <long> or /weather_locality <locality_id> to get weather updates.')
