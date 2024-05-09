@@ -36,7 +36,7 @@ def weather_locality(update: Update, context: CallbackContext):
 def main():
     # Create the Updater with your bot's token
     bot = Bot(token=BOT_TOKEN)
-    update_queue = queue.Queue()
+   # update_queue = queue.Queue()
     updater = Updater(bot=bot,use_context=True)
     
     # Get the dispatcher to register handlers
