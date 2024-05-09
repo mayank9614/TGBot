@@ -1,5 +1,3 @@
-export WEATHER_API_KEY=b60f23f346351792f8774d6994d0b86a
-export TELEGRAM_BOT_TOKEN=7118409819:AAH31vAoBHn-eiw3kobF5XgfSofjA26-Yrg
 # Environment variables
 .env
 
